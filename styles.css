@@ -1,0 +1,52 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: Roboto;
+    font-style: Black;
+    
+}
+
+.toDoList {
+    
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: auto;
+    width: 336px;
+    min-height: 236px;
+    
+}
+
+.top {
+    background-color: #FFDC40;
+    width: auto;
+    height: 28px;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sort {
+    align-content: flex-end;
+}
+
+.list {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+    min-height: 56px;
+    
+}
+
+.do {
+    min-width: 229px;
+    min-height: 36px;
+    text-align: left;
+    list-style-type: none;
+}

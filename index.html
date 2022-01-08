@@ -9,18 +9,33 @@
     </head>
     <body>
         <div class="wrapper">
-            <form class="toDoList">
+            <form class="to-do-list">
                 <div class="top">
 
                 </div>
                 <h1>To-Do List</h1>
-                <img class="sortBut" src="./images/sortDownGrayButton.png" alt="sort">
+                <button class="sort-but"><img src="./images/sortDownGrayButton.png" alt="sort"></button>
                 <div class="list">
                     <ul class="do">
-                        <li>Сделать зарядку</li>
+                        <li>
+                            <span>Сделать зарядку</span>
+                            <button class="del-but"><img src="/images/delGrayButton.png" alt="Del"></button>
+                        </li>
+                        <li>
+                            <span>Умыться</span>
+                            <button class="del-but"><img src="/images/delGrayButton.png" alt="Del"></button>
+                        </li>
+                        <li>
+                            <span>Принять душ</span>
+                            <button class="del-but"><img src="/images/delGrayButton.png" alt="Del"></button>
+                        </li>
+                        <li>
+                            <span>Почистить зубы</span>
+                            <button class="del-but"><img src="/images/delGrayButton.png" alt="Del"></button>
+                        </li>
                     </ul> 
                 </div> 
-                <img class="addBut" src="./images/addButton.png" alt="sort">           
+                 <button class="add-but"><img src="./images/addButton.png" alt="sort"></button>         
             </form>
         </div>
         <script src="script.js"></script>

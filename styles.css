@@ -74,7 +74,16 @@ h1 {
     margin-bottom: 12px;
     width: 25px;
     height: 15px;
-    background: none;
+    background-color: white;
+    background-image: url(./images/sortUpGrayButton.png);
+}
+
+#sort-up:hover {
+    background-image: url(./images/sortUpButton.png);
+}
+
+#sort-down:hover {
+    background-image: url(./images/sortDownButton.png);
 }
 
 .list {
@@ -101,15 +110,42 @@ li {
 
 }
 
+.new-li {
+    display: none;
+}
+
 .del-but {
     width: 20px;
     border-radius: 10px;
 }
 
+.del-but:hover {
+    background-color: #833AE0;
+}
+
 .add-but {
+    display: flex;
    width: 150px; 
    height: 42px;
    border-radius: 21px;
    margin-left: 92px;
    margin-bottom: 19px;
+   color: white;
+   background-color: #833AE0;
+   font-family: Roboto;
+   font-size: 14px;
+   align-items: center;
+   justify-content: flex-start;
 }
+
+.add-but span {
+    display: flex;
+    background-color: #AA68FE;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+

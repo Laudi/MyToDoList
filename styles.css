@@ -32,6 +32,8 @@ a:hover {text-decoration: none;}
 ul li {list-style: none;}
 img {vertical-align: top;}
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,300&family=Roboto+Slab:wght@500;700;800;900&family=Roboto:wght@100;300;400;500&display=swap");
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -57,6 +59,7 @@ img {vertical-align: top;}
     width: auto;
     height: 28px;
     margin-bottom: 10px;
+        
 }
 
 h1 {
@@ -111,7 +114,10 @@ li {
 }
 
 .new-li {
-    display: none;
+    /*display: none; */
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 .del-but {

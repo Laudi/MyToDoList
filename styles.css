@@ -114,35 +114,40 @@ li {
 }
 
 .new-li {
-    /*display: none; */
+    display: none; 
+    justify-content: space-between;
     overflow: hidden;
     border: 1px solid grey;
     border-radius: 5px;
+    margin: 10px 30px 10px 27px;
 }
 
-.del-but {
+.del-but, .new-del-but  {
     width: 20px;
     border-radius: 10px;
 }
 
 .del-but:hover {
     background-color: #833AE0;
-;
+}
+
+.new-del-but:hover {
+    background-color: #833AE0;
 }
 
 .add-but {
     display: flex;
-   width: 150px; 
-   height: 42px;
-   border-radius: 21px;
-   margin-left: 92px;
-   margin-bottom: 19px;
-   color: white;
-   background-color: #833AE0;
-   font-family: Roboto;
-   font-size: 14px;
-   align-items: center;
-   justify-content: flex-start;
+    width: 150px; 
+    height: 42px;
+    border-radius: 21px;
+    margin-left: 92px;
+    margin-bottom: 19px;
+    color: white;
+    background-color: #833AE0;
+    font-family: Roboto;
+    font-size: 14px;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .add-but span {
@@ -155,4 +160,5 @@ li {
     align-items: center;
     justify-content: center;
 }
+
 
